@@ -4,16 +4,30 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Homework №11</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
+      <h1>You go, girl</h1>
     </section>
 
+    <form name="search-form" class="search-form">
+      <input
+        class="search-input"
+        name="search"
+        type="text"
+        placeholder="Search images..."
+      />
+      <button class="search-btn" type="submit">Search</button>
+    </form>
+
+    <div class="gallery-container">
+      <ul class="gallery-list"></ul>
+    </div>
+
     <script type="module" src="./main.js"></script>
+    <script type="module" src="./js/pixabay-api.js"></script>
+    <script type="module" src="./js/render-functions.js"></script>
   </body>
 </html>
