@@ -16,10 +16,10 @@ export function createMarkup(arr) {
 <a class="link" href="${largeImageURL}">
   <img class="gallery-img" alt=${tags} src=${webformatURL}></img>
   <div class="stats-container">
-    <p class="img-likes"> <span>Likes:</span> <span>${likes}</span></p>
-    <p class="img-views"> Views: ${views} </p>
-    <p class="img-comments"> Comments: ${comments}</p>
-    <p class="img-downloads"> Downloads: ${downloads}</p>
+    <h5 class="h-likes">Likes:</h5><p class="p-likes">${likes}</p>
+    <h5 class="h-likes">Views:</h5><p class="p-views">${views} </p>
+    <h5 class="h-likes">Comments:</h5><p class="p-comments">${comments}</p>
+    <h5 class="h-likes">Downloads:</h5><p class="p-downloads">${downloads}</p>
 </a>
 </div>
 </li >
