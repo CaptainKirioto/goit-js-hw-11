@@ -86,7 +86,8 @@
 }
 
 .gallery-item {
-  width: calc((100% - 48px) / 3);
+  width: calc((100% - 54px) / 3);
+  border: 1px solid #808080;
 }
 
 .gallery-img {
@@ -97,7 +98,8 @@
 .stats-container {
   display: flex;
   flex-direction: row;
-  border: 1px solid;
+
+  padding-left: 20px;
 }
 
 .stats-container p {
