@@ -7,7 +7,7 @@ export function getImage(requestedImg) {
     q: requestedImg,
     image_type: 'photo',
     orientation: 'horizontal',
-    safesearch: true,
+    safesearch: false,
   });
   const url = `${BASE_URL}?${params}`;
 
